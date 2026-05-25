@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top">🏠 Home Feed</div>
+
+<div class="feed">
+
+  <div class="video-card">
+    <video autoplay muted loop>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+    </video>
+
+    <div class="actions">
+      <button onclick="like()">❤️</button>
+      <button onclick="comment()">💬</button>
+      <button onclick="share()">🔗</button>
+      <button onclick="follow()">➕</button>
+    </div>
+  </div>
+
+</div>
+
+<div class="bottom-nav">
+  <button onclick="goHome()">🏠</button>
+  <button onclick="goUpload()">➕</button>
+  <button onclick="goInbox()">📥</button>
+  <button onclick="goProfile()">👤</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
